@@ -1,0 +1,11 @@
+/* TEAM */
+Your title: Future Team Name.
+Site: email, link to a contact form, etc.
+Twitter: @captwillsnake.
+Location: Guadalajara, Mexico.
+
+/* SITE */                  
+Standards: HTML5, CSS3
+Software: Astro
+
+Checkout the https://humanstxt.org/ protocol to see how you should format your humans.txt file!
