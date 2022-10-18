@@ -1,0 +1,31 @@
+---
+// Component imports
+import { Main as Layout } from "@layouts/Main"
+import Button from "@component/Button.astro"
+---
+
+<Layout title="On The Dodge">
+  <section class="p-6 flex-1 flex flex-col justify-between text-center">
+    <div
+      class="max-w-xl mx-auto flex flex-col justify-center flex-1 space-y-10"
+    >
+      <h1>Can I Dodge?</h1>
+      <h2>Click the button below when you dodge and check back here to see when you can dodge again.</h2>
+      <div>
+        <Button>I dodged</Button>
+        <label for="time"></label>
+        <select name="time" id="time">
+          <option value="just">Just then</option>
+          <option value="5">5 Minutes Ago</option>
+          <option value="10">10 Minutes Ago</option>
+          <option value="30">30 Minutes Ago</option>
+          <option value="60">1 Hour Ago</option>
+          <option value="120">2 Hours Ago</option>
+          <option value="360">6 Hours Ago</option>
+          <option value="720">12 Hours Ago</option>
+          <option value="custom">Custom Time</option>
+        </select>
+      </div>
+    </div>
+  </section>
+</Layout>
