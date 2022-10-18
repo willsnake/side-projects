@@ -23,7 +23,6 @@ importers:
       astro-compress: ^1.0.8
       astro-seo: ^0.6.0
       autoprefixer: ^10.4.7
-      canvas-confetti: ^1.5.1
       date-fns: ^2.29.3
       eslint: ^8.24.0
       eslint-plugin-astro: ^0.19.0
@@ -47,7 +46,6 @@ importers:
       astro-compress: 1.0.8
       astro-seo: 0.6.0
       autoprefixer: 10.4.12_postcss@8.4.14
-      canvas-confetti: 1.5.1
       date-fns: 2.29.3
       eslint: 8.24.0
       eslint-plugin-astro: 0.19.0_eslint@8.24.0
@@ -2691,10 +2689,6 @@ packages:
 
   /caniuse-lite/1.0.30001411:
     resolution: {integrity: sha512-HPnJKESKuhKpHvMY1/ux7J3nG7xG8jRuL4lbyCjDRm0doTNV91tcRk60xrP7Ym9DtJH/yuqntDWBJCqpXB4b7g==}
-    dev: false
-
-  /canvas-confetti/1.5.1:
-    resolution: {integrity: sha512-Ncz+oZJP6OvY7ti4E1slxVlyAV/3g7H7oQtcCDXgwGgARxPnwYY9PW5Oe+I8uvspYNtuHviAdgA0LfcKFWJfpg==}
     dev: false
 
   /ccount/2.0.1:
