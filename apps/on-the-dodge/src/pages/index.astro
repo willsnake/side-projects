@@ -1,7 +1,11 @@
 ---
 // Component imports
 import { Main as Layout } from "@layouts/Main"
-import Button from "@component/Button.astro"
+// import Button from "@component/Button.astro"
+// import Button from "@component/Button/index.tsx"
+// import TimeInput from "@component/TimeInput/index.tsx"
+// import Select from "@component/Select/index.tsx"
+import Form from "@component/Form"
 ---
 
 <Layout title="On The Dodge">
@@ -10,10 +14,14 @@ import Button from "@component/Button.astro"
       class="max-w-xl mx-auto flex flex-col justify-center flex-1 space-y-10"
     >
       <h1>Can I Dodge?</h1>
-      <h2>Click the button below when you dodge and check back here to see when you can dodge again.</h2>
+      <h2>
+        Click the button below when you dodge and check back here to see when
+        you can dodge again.
+      </h2>
       <div>
-        <Button>I dodged</Button>
-        <label for="time"></label>
+        <Form client:load />
+        <!-- <Button client:load color="red" className="py-2 px-4 bg-purple-500 text-white font-semibold rounded-lg shadow-md hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-opacity-75">I dodged</Button> -->
+        <!-- <label for="time"></label>
         <select name="time" id="time">
           <option value="just">Just then</option>
           <option value="5">5 Minutes Ago</option>
@@ -24,7 +32,13 @@ import Button from "@component/Button.astro"
           <option value="360">6 Hours Ago</option>
           <option value="720">12 Hours Ago</option>
           <option value="custom">Custom Time</option>
-        </select>
+        </select> -->
+      </div>
+      <div>
+        <!-- <Select client:load /> -->
+      </div>
+      <div>
+        <!-- <TimeInput client:load /> -->
       </div>
     </div>
   </section>
