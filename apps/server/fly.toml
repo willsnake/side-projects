@@ -11,6 +11,14 @@ processes = []
   allowed_public_ports = []
   auto_rollback = true
 
+[mounts]
+  destination = "/pb/pb_data"
+  source = "pb_data"
+
+# optional if you want to change the PocketBase version
+[build.args]
+  PB_VERSION="0.8.0"
+
 [[services]]
   http_checks = []
   internal_port = 8080
